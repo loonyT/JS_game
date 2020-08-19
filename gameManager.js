@@ -5,13 +5,8 @@ let GameManager = {
         this.resetPlayer(classType);
         this.setPreFight();
 
-
-
-
-
-
     },
-setGameStart()
+    //setGameStart(),
 
     resetPlayer: function (classType) {
 
@@ -49,7 +44,7 @@ setGameStart()
 
     },
 
-resetPlayer()
+    //resetPlayer(),
     setPreFight: function () {
 
 
@@ -57,10 +52,10 @@ resetPlayer()
         let getActions = document.querySelector(".actions");
         let getArena = document.querySelector(".arena");
         getHeader.innerHTML = '<p>Task: Find an enemy</p>';
-        getActions.innerHTML = '<a href = "#" class = "btn-prefight" onclick = "GameManager.setFight"> Search for  enemy! </a>';
+        getActions.innerHTML = '<a href = "#" class = "btn-prefight" onclick = "GameManager.setFight()"> Search for  enemy! </a>';
         getArena.style.visibility = "visible";
     },
-setPreFight()
+    //setPreFight(),
     setFight: function () {
 
         let getHeader = document.querySelector(".header");
@@ -84,12 +79,12 @@ setPreFight()
 
         getHeader.innerHTML = '<p>Task : choose your move </p>';
         getActions.innerHTML = '<a href = "#" class = "btn-prefight" onclick = "PlayerMoves.calcAttack()"> Attack! </a>';
-        getEnemy.innerHTML = '<img src="https://image.shutterstock.com/image-vector/rpg-videogame-characters-enemies-600w-1208517286.jpg' + enemy.enemyType.toLowerCase()+ ' " alt = "' + enemy.enemyType + ' " class = "img-avatar" > <div><h3>' + enemy.enemyType + '</h3><p class ="health-enemy">Health: ' + enemy.health + '</p><p>Mana : ' + enemy.mana + '</p><p>Strenght: ' + enemy.strenght + '</p><p>Agility: ' +enemy.agility + '</p><p>Speed: ' + enemy.speed + '</p> </div>';
-        
-        
-        
+        getEnemy.innerHTML = '<img src="https://image.shutterstock.com/image-vector/rpg-videogame-characters-enemies-600w-1208517286.jpg' + enemy.enemyType.toLowerCase() + ' " alt = "' + enemy.enemyType + ' " class = "img-avatar" > <div><h3>' + enemy.enemyType + '</h3><p class ="health-enemy">Health: ' + enemy.health + '</p><p>Mana : ' + enemy.mana + '</p><p>Strenght: ' + enemy.strenght + '</p><p>Agility: ' + enemy.agility + '</p><p>Speed: ' + enemy.speed + '</p> </div>';
+
+
+
 
 
     },
-setFight ()
+    // setFight()
 }

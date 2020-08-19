@@ -9,61 +9,67 @@
     <title> JS GAME</title>
     <link href="https://fonts.googleaapis.com/css?family=Acme" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-  <script type = "text/javascript" src="gameManager.js"></script>
+    <script type="text/javascript" src="gameManager.js"></script>
     <script type="text/javascript" src="enemy.js"></script>
     <script type="text/javascript" src="player.js"></script>
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
 </head>
 
 
 <body>
 
-    <div class="header"> 
+    <div class="header">
         <p> play the best rpg ever made </p>
         <h2>choose your character</h2>
     </div>
 
 
-    <div class="interface"> 
-        <a href="#" onclick=  " GameManager.setGameStart(warrior) "    >
-            <img src="https://image.shutterstock.com/image-illustration/character-cartoon-illustration-male-fantasy-600w-531317389.jpg" alt="warrior">
+    <div class="interface">
+        <a href="#" onclick='GameManager.setGameStart("Warrior")'>
+            <img src="https://image.shutterstock.com/image-illustration/character-cartoon-illustration-male-fantasy-600w-531317389.jpg"
+                alt="warrior">
             <div>
 
                 <h3> warrior</h3>
-                <p> Warriors have higher health and stamina, however, their strenght also makes them slower and clumsier.</p>
+                <p> Warriors have higher health and stamina, however, their strenght also makes them slower and
+                    clumsier.</p>
 
             </div>
         </a>
 
 
-        <a href="#"  onclick="GameManager.setGameStart(Rogue)">
-            <img src="https://image.shutterstock.com/image-illustration/fantasy-illustration-rogue-swordsman-dressed-600w-1062074204.jpg" alt="warrior">
+        <a href="#" onclick='GameManager.setGameStart("Rogue")'>
+            <img src="https://image.shutterstock.com/image-illustration/fantasy-illustration-rogue-swordsman-dressed-600w-1062074204.jpg"
+                alt="warrior">
             <div>
 
                 <h3> Rogue</h3>
-                <p>Rogue are fast and have high stamina and speed wich makes up for their lack in strenght and health </p>
+                <p>Rogue are fast and have high stamina and speed wich makes up for their lack in strenght and health
+                </p>
 
             </div>
         </a>
 
 
-        <a href="#"  onclick="GameManager.setGameStart(Mage)">
-            <img src="https://image.shutterstock.com/image-illustration/cute-original-character-design-fantasy-600w-764018926.jpg" alt="warrior">
+        <a href="#" onclick='GameManager.setGameStart("Mage")'>
+            <img src="https://image.shutterstock.com/image-illustration/cute-original-character-design-fantasy-600w-764018926.jpg"
+                alt="warrior">
             <div>
 
                 <h3> Mage</h3>
-                <p> Mages are glass canons which puts all their effort into spells. This means they slack on everything else </p>
+                <p> Mages are glass canons which puts all their effort into spells. This means they slack on everything
+                    else </p>
 
             </div>
         </a>
 
-        <a href="#"  onclick="GameManager.setGameStart(Hunter)">
+        <a href="#" onclick='GameManager.setGameStart("Hunter")'>
             <img src="https://image.shutterstock.com/image-photo/full-length-portrait-blonde-girl-600w-622855394.jpg" alt="warrior">
             <div>
 
