@@ -35,7 +35,7 @@ the game is "working" => there are still lots of issues to fix but i did learn a
 <!-- CONTRIBUTING -->
 ## Preview
 
-##Preview  : [RPG JS](https://loonyt.github.io/JS_game/)
+ [RPG JS](https://loonyt.github.io/JS_game/)
 
 
 <!-- LICENSE -->
