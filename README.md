@@ -6,7 +6,7 @@
   * [Built With](#built-with)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
-* [Preview](#peview)
+* [Preview](#Preview)
 * [License](#license)
 
 <!-- ABOUT THE PROJECT -->
